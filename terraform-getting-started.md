@@ -23,7 +23,7 @@ If you are on Windows, you can use [Chocolatey](https://chocolatey.org/) to inst
 $ choco install terraform
 ```
 
-If you want to install Terraform manually, you can visit the [Terraform.io downloads page](https://www.terraform.io/downloads.html) and download the appropriate binary package as a zip archive. Once you have downloaded the archive, you can extract the terraform binary and run Terraform. You may need to make sure that terraform is in your **PATH**, depending on your local environment. 
+If you want to install Terraform manually, you can visit the [Terraform.io downloads page](https://www.terraform.io/downloads.html) and download the appropriate binary package as a zip archive. Once you have downloaded the archive, you can extract the **terraform** binary and run Terraform. You may need to make sure that **terraform** is in your **PATH**, depending on your local environment. 
 
 You can verify that Terraform was successfully installed by listing the available subcommands from a terminal.
 
