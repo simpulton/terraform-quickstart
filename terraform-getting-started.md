@@ -130,5 +130,5 @@ In this tutorial, you have learned:
 - How to create infrastructure using Terraform
 - How to destroy infrastructure using Terraform
 
-To create infrastructure with dynamic input variables, continue to [Define Input Variables tutorial](https://learn.hashicorp.com/tutorials/terraform/aws-variables?in=terraform/aws-get-started).
+To create infrastructure with dynamic input variables, continue to the [Define Input Variables tutorial](https://learn.hashicorp.com/tutorials/terraform/aws-variables?in=terraform/aws-get-started).
 
