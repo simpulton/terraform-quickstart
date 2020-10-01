@@ -73,11 +73,13 @@ resource "docker_image" "nginx" {
 
 With your configuration complete, you need to initialize your directory so that Terraform has the necessary plugins to deploy your configuration. In this case, we need to install the **Docker** provider.
 
-Initialize Terraform with the init command. 
+Initialize Terraform with the `init` command. 
 
 ```shell
 $ terraform init
 ```
+
+> You may get an error indicating that the required providers could not be found. You can fix this by running the `terraform 0.13upgrade .` and running the `terraform init` command again.
 
 Upon completion, Terraform has downloaded the **Docker** plugin into your working directory, and you are ready to create your infrastructure.
 
